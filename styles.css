@@ -1,0 +1,11 @@
+.bodyImg{
+  background-image: url(bread.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.myStyleForm{
+  background-color: rgb(252, 55, 55);
+}
