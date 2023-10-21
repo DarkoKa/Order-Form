@@ -1,11 +1,31 @@
-.bodyImg{
-  background-image: url(bread.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+h2,h5{
+  color: rgb(193, 194, 194)
 }
 
+.bodyImg{
+  background: rgb(0, 0, 0) url("bread.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .myStyleForm{
-  background-color: rgb(252, 55, 55);
+  background-color: rgba(166, 87, 21, 0.6);
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(155, 77, 13);
 }
+
+.myStyleTextInForm{
+  color: #ffffff;
+}
+
+.myBtnStyle{
+  background-color: rgb(155, 77, 13);
+  color: #ffffff;
+  transition: background-color 0.3s;
+}
+  .myBtnStyle:hover{
+    background-color: rgb(121, 58, 7);
+    color: #ffffff;
+  }
