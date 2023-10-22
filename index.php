@@ -14,11 +14,13 @@
 
 <body class="bodyImg">
 
+  <h1 style="color: white;">Pieczyffko</h1><br>
+  <h3 style="color: white;">Zamówienia Online</h3>
+
   <div class="container-fluid d-flex align-items-center justify-content-center" style="height: 600px;">
     <div class="row">
         <div class="col-12 p-3 myStyleForm">
-          <h2>Zamówienia online</h2>   
-          <h5>Wybierz produkty z wybieranych poniżej</h5> <br>
+          <h2>Wybierz produkty <br> i podaj ilość</h2>   
           
         <form action="order_form.php" method="post" >
             <span class="myStyleTextInForm">Podaj liczbę (0.99 PLN/szt.)</span>: 
