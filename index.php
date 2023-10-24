@@ -12,31 +12,37 @@
     <link rel="stylesheet" href="styles.css">
   </head>
 
-<body class="bodyImg">
+<body>
 
-  <h1 style="color: white;">Pieczyffko</h1><br>
-  <h3 style="color: white;">Zamówienia Online</h3>
+<div class="bg-image" style="background-image: url('bread.png');">
 
-  <div class="container-fluid d-flex align-items-center justify-content-center" style="height: 600px;">
+  <p class="text-center h1 text-white p-2">Pieczyffko</p>
+  <p class="text-center h1 text-white pb-5">Zamówienia Online</p>
+
+  <div class="container-fluid d-flex align-items-center justify-content-center m-lg-2 m-sm-2 m-md-2">
     <div class="row">
-        <div class="col-12 p-3 myStyleForm">
-          <h2>Wybierz produkty <br> i podaj ilość</h2>   
+      <div class="col myStyleForm">
+
+        <h2 class="p-2 pb-3">Wybierz produkty i podaj ilość: </h2>   
           
         <form action="order_form.php" method="post" >
-            <span class="myStyleTextInForm">Podaj liczbę (0.99 PLN/szt.)</span>: 
-            <br>
-            <input class="text" type="text" name="paczki"/> 
+            <span class="myStyleTextInForm">Kajzerka (0.69 PLN/szt.):</span>
+            &nbsp; <input class="text" type="text" name="kajzerki"/>
             <br><br>
-            <span class="myStyleTextInForm">Grachamki (1.30 PLN/szt.):</span>: 
-            <br>
-            <input type="text" name="grzebienie"/>  
+            <span class="myStyleTextInForm">Grahamki (1.30 PLN/szt.):</span>
+            <input type="text" name="grahamki"/>
+            <br><br>
+            <span class="myStyleTextInForm">Poranna (0.99 PLN/szt.):</span>
+            &nbsp; <input type="text" name="poranne"/>
             <br><br> 
             <input type="submit" class="btn myBtnStyle mb-3" value="Wyślij zamówienie">
-          </form>
+        </form>
 
-        </div>
+      </div>
     </div>
   </div>
+
+</div>
 
 </body>
 </html>

@@ -1,11 +1,11 @@
 h2,h5{
-  color: rgb(193, 194, 194)
-}
+  color: rgb(255, 255, 255);
+  text-shadow: black 1px 2px 1px;
 
-.bodyImg{
-  background: rgb(0, 0, 0) url("bread.png");
+}
+.bg-image{ 
   background-size: cover;
-  background-position: center;
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
@@ -18,7 +18,7 @@ h2,h5{
 
 .myStyleTextInForm{
   color: #ffffff;
-  text-shadow: black 2px 2px 1px;
+  text-shadow: black 2px 1px 1px;
 }
 
 .myBtnStyle{
