@@ -14,18 +14,19 @@
 
 <body>
 
-<div class="bg-image" style="background-image: url('bread.png');">
+<!-- <div class="bg-image" style="background-image: url('bread.png'); min-height: 650px"> -->
 
-  <p class="text-center h1 text-white p-2">Pieczyffko</p>
-  <p class="text-center h1 text-white pb-5">Zamówienia Online</p>
+  <div class="pt-5 pb-5 h1 text-center myStyleForMainTitle">
+    <p>Pieczyffko</p>
+    <p>Zamówienia Online</p>
+  </div>
 
-  <div class="container-fluid d-flex align-items-center justify-content-center m-lg-2 m-sm-2 m-md-2">
+  <div class="container d-flex align-items-center justify-content-center">
     <div class="row">
-      <div class="col myStyleForm">
-
-        <h2 class="p-2 pb-3">Wybierz produkty i podaj ilość: </h2>   
-          
-        <form action="order_form.php" method="post" >
+      
+      <div class="col mb-5 myStyleForm">
+        <form action="order_form.php" method="post">
+            <h2 class="p-2 pb-3 myStyleTextInForm">Wybierz produkty i podaj ilość:</h2> 
             <span class="myStyleTextInForm">Kajzerka (0.69 PLN/szt.):</span>
             &nbsp; <input class="text" type="text" name="kajzerki"/>
             <br><br>
@@ -35,14 +36,16 @@
             <span class="myStyleTextInForm">Poranna (0.99 PLN/szt.):</span>
             &nbsp; <input type="text" name="poranne"/>
             <br><br> 
+            <span class="myStyleTextInForm">Imię:</span>
+            &nbsp; <input type="text" name="imie"/>
+            <br><br> 
             <input type="submit" class="btn myBtnStyle mb-3" value="Wyślij zamówienie">
         </form>
-
       </div>
+
     </div>
   </div>
 
-</div>
 
 </body>
 </html>

@@ -1,18 +1,19 @@
-h2,h5{
-  color: rgb(255, 255, 255);
-  text-shadow: black 1px 2px 1px;
+body { 
+  background: url(bread.png) no-repeat center center fixed; 
 
+  background-size: cover;
 }
+
 .bg-image{ 
   background-size: cover;
-  background-size: auto;
   background-repeat: no-repeat;
+  background-position: center; 
 }
 
 .myStyleForm{
   background-color: rgba(166, 87, 21, 0.6);
   border: solid;
-  border-width: 2px;
+  border-width: 1px;
   border-color: rgb(155, 77, 13);
 }
 

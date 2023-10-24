@@ -15,10 +15,12 @@
         $kajzerki = $_POST['kajzerki'];
         $grahamki = $_POST['grahamki'];
         $poranne = $_POST['poranne'];
+        $imie = $_POST['imie'];
+
         $il_sztuk = $kajzerki + $grahamki + $poranne;
         $razem = 0.69 * $kajzerki + 1.30 * $grahamki + 0.99 * $poranne;
 
-echo <<<END
+echo<<<END
          <h3>Podsumowanie zamówienia</h3>
 
          <table border="1" cellpadding="10" cellspacing="0"
@@ -42,6 +44,10 @@ echo <<<END
                 <td>Razem</td>
                 <td>$razem</td>
             </tr>
+            <tr>
+            <td>Dane kontaktowe</td>
+            <td>$imie</td>
+        </tr>
          </table>
          <br/>
          <a href="index.php">Powrót do strony głównej</a>
