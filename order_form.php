@@ -15,6 +15,8 @@
         $kajzerki = $_POST['kajzerki'];
         $grahamki = $_POST['grahamki'];
         $poranne = $_POST['poranne'];
+
+        
         $imie = $_POST['imie'];
 
         $il_sztuk = $kajzerki + $grahamki + $poranne;
