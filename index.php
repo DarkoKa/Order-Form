@@ -14,8 +14,6 @@
 
 <body>
 
-<!-- <div class="bg-image" style="background-image: url('bread.png'); min-height: 650px"> -->
-
   <div class="pt-3 pb-2 h1 text-center myStyleForMainTitle">
     <p>Pieczyffko</p>
     <p>Zamówienia Online</p>
@@ -23,9 +21,9 @@
 
   <div class="container d-flex align-items-center justify-content-center">
     <div class="row">
-      <div class="col mb-5 myStyleForm">
+      <div class="col myStyleForm">
         <form action="order_form.php" method="post">
-            <h2 class="p-2 pb-3 myStyleTextInForm">Wybierz produkty i podaj ilość:</h2> 
+            <h3 class="p-2 pb-3 myStyleTextInForm">Wybierz produkty i podaj ilość:</h3> 
             <span class="myStyleTextInForm">Kajzerka (0.69 PLN/szt.):</span>
             &nbsp; <input class="text" type="text" name="kajzerki"/>
             <br><br>
@@ -36,16 +34,32 @@
             &nbsp; <input type="text" name="poranne"/>
             <br><br> 
             <input type="submit" class="btn myBtnStyle mb-3" value="Wyślij zamówienie">
+            <hr style="color: white;">
+            
+            <h4 class="p-2 pb-3 myStyleTextInForm">Podaj dane oraz adres doręczenia</h4> 
+            <span class="myStyleTextInForm">Imię:</span>
+            &nbsp; <input type="text" name="imie"/>
+            <br><br> 
+            <span class="myStyleTextInForm">Nazwisko:</span>
+            &nbsp; <input type="text" name="nazwisko"/>
+            <br><br> 
+            <span class="myStyleTextInForm">Ulica:</span>
+            &nbsp; <input type="text" name="Ulica"/>
+            <br><br> 
+            <span class="myStyleTextInForm">Kod pocztowy</span>
+            &nbsp; <input type="text" name="kod_pocztowy"/>
+            <br><br> 
+            
         </form>
       </div>
     </div>
   </div>
 
-  <div class="container d-flex align-items-center justify-content-center">
+  <!-- <div class="container d-flex align-items-center justify-content-center"> 
     <div class="row">
       <div class="col mb-5 myStyleForm">
         <form action="order_form.php" method="post">
-            <h2 class="p-2 pb-3 myStyleTextInForm">Podaj adres do zamówienia</h2> 
+            <h4 class="p-2 pb-3 myStyleTextInForm">Podaj adres do zamówienia</h4> 
             <span class="myStyleTextInForm">Kajzerka (0.69 PLN/szt.):</span>
             &nbsp; <input class="text" type="text" name="kajzerki"/>
             <br><br>
@@ -55,14 +69,13 @@
             <span class="myStyleTextInForm">Poranna (0.99 PLN/szt.):</span>
             &nbsp; <input type="text" name="poranne"/>
             <br><br> 
-            <span class="myStyleTextInForm">Imię:</span>
-            &nbsp; <input type="text" name="imie"/>
+           
             <br><br> 
             <input type="submit" class="btn myBtnStyle mb-3" value="Wyślij zamówienie">
         </form>
       </div>
     </div>
-  </div>
+  </div>-->
 
 </body>
 </html>
