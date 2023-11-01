@@ -26,29 +26,37 @@
             <h4 class="p-2 pb-3 text-center myStyleTextInForm">Wybierz produkty i podaj ilość:</h4> 
 
             <span class="myStyleTextInForm">Kajzerka (0.69 PLN/szt.):</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="text" type="text" name="kajzerki"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="text" type="text" name="kajzerki"/>
             <br><br>
-            <span class="myStyleTextInForm">Grahamki (1.30 PLN/szt.):</span>
-            <input type="text" name="grahamki"/>
+
+            <span class="myStyleTextInForm">Grahamka (1.30 PLN/szt.):</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="grahamki"/>
             <br><br>
-            <span class="myStyleTextInForm">Poranna (0.99 PLN/szt.):</span>
-            &nbsp; <input type="text" name="poranne"/>
+
+            <span class="myStyleTextInForm">Poznańska (0.99 PLN/szt.):</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="poznanska"/>
             <br><br> 
+
             <span class="myStyleTextInForm">Pełnoziarnista (1.35 PLN/szt.):</span>
-            &nbsp; <input type="text" name="pelnoziarn"/>
+            <input type="text" name="pelnoziarn"/>
             <br><br> 
+
             <span class="myStyleTextInForm">Ciabatta (1.50 PLN/szt.):</span>
-            &nbsp; <input type="text" name="ciabatta"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="ciabatta"/>
+            <br><br> 
+
+            <span class="myStyleTextInForm">Maślana (1.27 PLN/szt.):</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="maslana"/>
             <br><br> 
            
             <hr style="color: white;">
             
             <h4 class="p-2 pb-3 myStyleTextInForm">Podaj dane oraz adres doręczenia</h4> 
             <span class="myStyleTextInForm">Imię:</span>
-            &nbsp; <input type="text" name="imie"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="imie"/>
             <br><br> 
             <span class="myStyleTextInForm">Nazwisko:</span>
-            &nbsp; <input type="text" name="nazwisko"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <input type="text" name="nazwisko"/>
             <br><br> 
             <span class="myStyleTextInForm">Ulica:</span>
             &nbsp; <input type="text" name="Ulica"/>
