@@ -23,9 +23,10 @@
     <div class="row">
       <div class="col myStyleForm">
         <form action="order_form.php" method="post">
-            <h3 class="p-2 pb-3 myStyleTextInForm">Wybierz produkty i podaj ilość:</h3> 
+            <h4 class="p-2 pb-3 text-center myStyleTextInForm">Wybierz produkty i podaj ilość:</h4> 
+
             <span class="myStyleTextInForm">Kajzerka (0.69 PLN/szt.):</span>
-            &nbsp; <input class="text" type="text" name="kajzerki"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="text" type="text" name="kajzerki"/>
             <br><br>
             <span class="myStyleTextInForm">Grahamki (1.30 PLN/szt.):</span>
             <input type="text" name="grahamki"/>
@@ -33,7 +34,13 @@
             <span class="myStyleTextInForm">Poranna (0.99 PLN/szt.):</span>
             &nbsp; <input type="text" name="poranne"/>
             <br><br> 
-            <input type="submit" class="btn myBtnStyle mb-3" value="Wyślij zamówienie">
+            <span class="myStyleTextInForm">Pełnoziarnista (1.35 PLN/szt.):</span>
+            &nbsp; <input type="text" name="pelnoziarn"/>
+            <br><br> 
+            <span class="myStyleTextInForm">Ciabatta (1.50 PLN/szt.):</span>
+            &nbsp; <input type="text" name="ciabatta"/>
+            <br><br> 
+           
             <hr style="color: white;">
             
             <h4 class="p-2 pb-3 myStyleTextInForm">Podaj dane oraz adres doręczenia</h4> 
@@ -49,7 +56,9 @@
             <span class="myStyleTextInForm">Kod pocztowy</span>
             &nbsp; <input type="text" name="kod_pocztowy"/>
             <br><br> 
-            
+
+            <input type="submit" class="btn myBtnStyle mb-3" value="Wyślij zamówienie">
+
         </form>
       </div>
     </div>
