@@ -7,54 +7,75 @@
     <meta name="description" content="">
     <meta name=keywords content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Podsumowanie zamówienia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>  
     <?php
         $kajzerki = $_POST['kajzerki'];
         $grahamki = $_POST['grahamki'];
-        $poranne = $_POST['poranne'];
-
+        $poznanska   = $_POST['poznanska'];
+        $pelnoziarn = $_POST['pelnoziarn'];
+        $ciabatta = $_POST['ciabatta'];
+        $maslana = $_POST['maslana'];
+        
         
         $imie = $_POST['imie'];
 
-        $il_sztuk = $kajzerki + $grahamki + $poranne;
-        $razem = 0.69 * $kajzerki + 1.30 * $grahamki + 0.99 * $poranne;
+        $razem = $kajzerki + $grahamki + $poznanska + $pelnoziarn + $ciabatta + $maslana;
+        $suma = 0.69 * $kajzerki + 1.30 * $grahamki + 0.99 * $poznanska + 1.35 * $pelnoziarn + 1.50 * $ciabatta + 1.27 * $maslana;
 
 echo<<<END
-         <h3>Podsumowanie zamówienia</h3>
-
-         <table border="1" cellpadding="10" cellspacing="0"
-            <tr>
-                <td>Kajzerki (0.69 PLN/szt.)</td>
-                <td>$kajzerki</td>
-            </tr>
-            <tr>
-                <td>Grahamki (1.30 PLN/szt.)</td>
-                <td>$grahamki</td>
-            </tr>
-            <tr>
-                <td>Poranne (1.30 PLN/szt.)</td>
-                <td>$poranne</td>
-            </tr>
-            <tr>
-                <td>Ilość sztuk</td>
-                <td>$il_sztuk</td>
-            </tr>
-            <tr>
-                <td>Razem</td>
-                <td>$razem</td>
-            </tr>
-            <tr>
-            <td>Dane kontaktowe</td>
-            <td>$imie</td>
-        </tr>
-         </table>
-         <br/>
-         <a href="index.php">Powrót do strony głównej</a>
+     
+<table class="table">
+<thead>
+  <tr>
+    <th scope="col" colspan="3">Podsumowanie zamówienia</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+      <td>Kajzerki (0.69 PLN/szt.)</td>
+      <td>$kajzerki</td>
+  </tr>
+  <tr>
+      <td>Grahamki (1.30 PLN/szt.)</td>
+      <td>$grahamki</td>
+  </tr>
+  <tr>
+      <td>Poznańskie (0.99 PLN/szt.)</td>
+      <td>$poznanska</td>
+  </tr>
+  <tr>
+      <td>Pełnoziarnista (1.35 PLN/szt.)</td>
+      <td>$pelnoziarn</td>
+  </tr>
+  <tr>
+      <td>Ciabatta (1.50 PLN/szt.)</td>
+      <td>$pelnoziarn</td>
+  </tr>
+  <tr>
+      <td>Maślana (1.27 PLN/szt.)</td>
+      <td>$maslana</td>
+  </tr>
+  <tr>
+      <td>Razem</td>
+      <td>$razem</td>
+  </tr>
+  <tr>
+      <td>Suma</td>
+      <td>$suma</td>
+   </tr>
+</tbody>
+</table>       
+             
+         
 END;
 ?>
 </body>
 
 </html>
+
