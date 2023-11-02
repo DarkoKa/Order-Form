@@ -74,7 +74,7 @@ echo<<<END
              
          
 END;
-?>
+?>  
 </body>
 
 </html>
