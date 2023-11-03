@@ -19,14 +19,14 @@
     <p>Zamówienia Online</p>
   </div>
 
-  <div class="container d-flex align-items-center justify-content-center">
+  <div class="container-fluid d-flex align-items-center justify-content-center">
     <div class="row">
       <div class="col myStyleForm">
         <form action="order_form.php" method="post">
             <h4 class="p-2 pb-3 text-center myStyleTextInForm">Wybierz produkty i podaj ilość:</h4> 
 
             <span class="myStyleTextInForm">Kajzerka (0.69 PLN/szt.):</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="text" type="text" name="kajzerki"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="text" type="text" name="kajzerki"/>
             <br><br>
 
             <span class="myStyleTextInForm">Grahamka (1.30 PLN/szt.):</span>
@@ -34,7 +34,7 @@
             <br><br>
 
             <span class="myStyleTextInForm">Poznańska (0.99 PLN/szt.):</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="poznanska"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="poznanska"/>
             <br><br> 
 
             <span class="myStyleTextInForm">Pełnoziarnista (1.35 PLN/szt.):</span>
@@ -52,17 +52,16 @@
             <hr style="color: white;">
             
             <h4 class="p-2 pb-3 myStyleTextInForm">Podaj dane oraz adres doręczenia</h4> 
-            <span class="myStyleTextInForm">Imię:</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="imie"/>
-            <br><br> 
-            <span class="myStyleTextInForm">Nazwisko:</span>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <input type="text" name="nazwisko"/>
+            <span class="myStyleTextInForm">Imię i Nazwisko:</span><br>
+            <input type="text" name="imie" placeholder="imię"/>
+            
+            <input type="text" name="nazwisko" placeholder="nazwisko"/>
             <br><br> 
             <span class="myStyleTextInForm">Ulica:</span>
             &nbsp; <input type="text" name="Ulica"/>
             <br><br> 
-            <span class="myStyleTextInForm">Kod pocztowy</span>
-            &nbsp; <input type="text" name="kod_pocztowy"/>
+            <span class="myStyleTextInForm">Kod pocztowy: </span>
+            <input type="text" name="kod_pocztowy"/>
             <br><br> 
 
             <input type="submit" class="btn myBtnStyle mb-3" value="Wyślij zamówienie">
