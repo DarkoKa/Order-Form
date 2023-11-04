@@ -54,14 +54,15 @@
             <h4 class="p-2 pb-3 myStyleTextInForm">Podaj dane oraz adres doręczenia</h4> 
             <span class="myStyleTextInForm">Imię i Nazwisko:</span><br>
             <input type="text" name="imie" placeholder="imię"/>
-            
             <input type="text" name="nazwisko" placeholder="nazwisko"/>
-            <br><br> 
-            <span class="myStyleTextInForm">Ulica:</span>
-            &nbsp; <input type="text" name="Ulica"/>
-            <br><br> 
-            <span class="myStyleTextInForm">Kod pocztowy: </span>
-            <input type="text" name="kod_pocztowy"/>
+            <br><br>
+
+            <span class="myStyleTextInForm">Adres zamieszkania</span><br>
+            <input type="text" name="ulica"/>
+            <input type="text" name="nr domu/mieszkania"/>
+            <input type="text" name="miasto"/>
+            <input type="text" name="kod pocztowy"/>
+
             <br><br> 
 
             <input type="submit" class="btn myBtnStyle mb-3" value="Wyślij zamówienie">

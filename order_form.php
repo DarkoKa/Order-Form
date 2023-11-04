@@ -24,7 +24,8 @@
         
         
         $imie = $_POST['imie'];
-
+        $nazwisko = $_POST['nazwisko'];
+        
         $razem = $kajzerki + $grahamki + $poznanska + $pelnoziarn + $ciabatta + $maslana;
         $suma = 0.69 * $kajzerki + 1.30 * $grahamki + 0.99 * $poznanska + 1.35 * $pelnoziarn + 1.50 * $ciabatta + 1.27 * $maslana;
 
@@ -69,6 +70,16 @@ echo<<<END
       <td>Suma</td>
       <td>$suma</td>
    </tr>
+
+   <tr>
+      <td>Imię</td>
+      <td>$suma</td>
+   </tr>
+   <tr>
+      <td>Nazwisko</td>
+      <td>$nazwisko</td>
+   </tr>
+
 </tbody>
 </table>       
              
