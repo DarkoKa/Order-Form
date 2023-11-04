@@ -25,8 +25,13 @@
         
         $imie = $_POST['imie'];
         $nazwisko = $_POST['nazwisko'];
-        
+        $ulica = $_POST['ulica'];
+        $nr_domu = $_POST['nr_domu'];
+        $miasto = $_POST['miasto'];
+        $kod_pocztowy = $_POST['kod_pocztowy'];
+
         $razem = $kajzerki + $grahamki + $poznanska + $pelnoziarn + $ciabatta + $maslana;
+
         $suma = 0.69 * $kajzerki + 1.30 * $grahamki + 0.99 * $poznanska + 1.35 * $pelnoziarn + 1.50 * $ciabatta + 1.27 * $maslana;
 
 echo<<<END
@@ -73,12 +78,24 @@ echo<<<END
 
    <tr>
       <td>Imię</td>
-      <td>$suma</td>
+      <td>$imie</td>
    </tr>
    <tr>
       <td>Nazwisko</td>
       <td>$nazwisko</td>
    </tr>
+   <tr>
+      <td>Ulica</td>
+      <td>$ulica</td>
+   </tr>
+   <tr>
+      <td>Miasto</td>
+      <td>$miasto</td>
+   </tr>
+   <tr>
+      <td>Kod pocztowy</td>
+      <td>$kod_pocztowy</td>
+    </tr>
 
 </tbody>
 </table>       
