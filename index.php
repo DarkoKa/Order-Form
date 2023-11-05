@@ -57,14 +57,17 @@
             <input type="text" name="nazwisko" placeholder="nazwisko"/>
             <br><br>
 
-            <span class="myStyleTextInForm">Adres zamieszkania</span><br>
+            <span class="myStyleTextInForm">Adres zamieszkania:</span><br>
             <input type="text" name="ulica" placeholder="ulica"/>
             <input type="text" name="nr_domu" placeholder="nr domu/mieszkania"/>
             <br>
             <input type="text" name="miasto" placeholder="miasto"/>
             <input type="text" name="kod_pocztowy" placeholder="kod pocztowy"/>
-            <br><br> 
-
+            <br><br>
+            <span class="myStyleTextInForm">Pozostałe dane:</span><br>
+            <input type="text" name="nip" placeholder="NIP"/>
+            <input type="text" name="e_mail" placeholder="em@il"/>
+            <br><br>
             <input type="submit" class="btn myBtnStyle mb-3" value="Wyślij zamówienie">
 
         </form>

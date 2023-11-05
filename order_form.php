@@ -10,7 +10,7 @@
     <title>Podsumowanie zamówienia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    
 </head>
 
 <body>  
@@ -29,6 +29,8 @@
         $nr_domu = $_POST['nr_domu'];
         $miasto = $_POST['miasto'];
         $kod_pocztowy = $_POST['kod_pocztowy'];
+        $nip = $_POST['nip'];
+        $e_mail = $_POST['e_mail'];
 
         $razem = $kajzerki + $grahamki + $poznanska + $pelnoziarn + $ciabatta + $maslana;
 
@@ -39,7 +41,7 @@ echo<<<END
 <table class="table">
 <thead>
   <tr>
-    <th scope="col" colspan="3">Podsumowanie zamówienia</th>
+    <th scope="col" colspan="2">Podsumowanie zamówienia</th>
   </tr>
 </thead>
 <tbody>
@@ -75,7 +77,16 @@ echo<<<END
       <td>Suma</td>
       <td>$suma</td>
    </tr>
+</tbody>
+</table>
 
+<table class="table">
+<thead>
+  <tr>
+    <th scope="col" colspan="2">Podany adres do zamówienia</th>
+  </tr>
+</thead>
+<tbody>
    <tr>
       <td>Imię</td>
       <td>$imie</td>
@@ -95,8 +106,24 @@ echo<<<END
    <tr>
       <td>Kod pocztowy</td>
       <td>$kod_pocztowy</td>
-    </tr>
+   </tr>
+</table>
 
+<table class="table">
+<thead>
+  <tr>
+    <th scope="col" colspan="2">Pozostałe informacje</th>
+  </tr>
+</thead>
+<tbody>
+   <tr>
+      <td>NIP</td>
+      <td>$nip</td>
+   </tr>
+   <tr>
+      <td>em@il</td>
+      <td>$e_mail</td>
+   </tr>
 </tbody>
 </table>       
              
