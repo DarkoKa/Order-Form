@@ -1,6 +1,5 @@
 body { 
   background: url(bread.png) no-repeat center center fixed; 
-
   background-size: cover;
 }
 
@@ -10,11 +9,27 @@ body {
   background-position: center; 
 }
 
+.myStyleForMainTitle{
+  color: white;
+  font-style: italic;
+  text-shadow: black 2px 1px 1px;
+  max-width: 450px !important;
+}
+
+.companyNameStyle{
+  background-color: rgba(166, 87, 21, 0.6);
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(155, 77, 13);
+}
+
+
 .myStyleForm{
   background-color: rgba(166, 87, 21, 0.6);
   border: solid;
   border-width: 1px;
   border-color: rgb(155, 77, 13);
+ 
 }
 
 .myStyleTextInForm{

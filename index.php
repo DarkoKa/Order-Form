@@ -14,9 +14,11 @@
 
 <body>
 
-  <div class="pt-3 pb-2 h1 text-center myStyleForMainTitle">
-    <p>Pieczyffko</p>
-    <p>Zamówienia Online</p>
+  <div class="container align-items-center justify-content-center pt-3 pb-2 h1 text-center myStyleForMainTitle">
+        <p class="companyNameStyle">Piekarnia PieczyFFko</p>
+        <h3>Zamówienia Online</h3>
+        <h3>Jesteś w dziale: Bułki</h3>
+     
   </div>
 
   <div class="container-fluid d-flex align-items-center justify-content-center">
@@ -51,7 +53,7 @@
            
             <hr style="color: white;">
             
-            <h4 class="p-2 pb-2 myStyleTextInForm">Podaj dane oraz adres doręczenia</h4> 
+            <h4 class="p-2 pb-2 myStyleTextInForm">Podaj dane oraz adres doręczenia:</h4> 
             <span class="myStyleTextInForm">Imię i Nazwisko:</span><br>
             <input type="text" name="imie" placeholder="imię"/>
             <input type="text" name="nazwisko" placeholder="nazwisko"/>
