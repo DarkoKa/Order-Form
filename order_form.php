@@ -75,9 +75,7 @@ echo<<<END
       <td>$suma</td>
    </tr>
 </tbody>
-</table>
 
-<table class="table">
 <thead>
   <tr>
     <th scope="col" colspan="2">Podany adres do zamówienia</th>
@@ -104,9 +102,7 @@ echo<<<END
       <td>Kod pocztowy</td>
       <td>$kod_pocztowy</td>
    </tr>
-</table>
 
-<table class="table">
 <thead>
   <tr>
     <th scope="col" colspan="2">Pozostałe informacje</th>
@@ -122,7 +118,7 @@ echo<<<END
       <td>$e_mail</td>
    </tr>
 </tbody>
-</table>       
+  
              
          
 END;
