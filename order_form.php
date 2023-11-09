@@ -34,6 +34,9 @@
         $suma = 0.69 * $kajzerki + 1.30 * $grahamki + 0.99 * $poznanska + 1.35 * $pelnoziarn + 1.50 * $ciabatta + 1.27 * $maslana;
 
 echo<<<END
+
+<div class="container-fluid d-flex align-items-center justify-content-center">
+<div class="row">
      
 <table class="table">
 <thead>
@@ -118,8 +121,8 @@ echo<<<END
       <td>$e_mail</td>
    </tr>
 </tbody>
-  
-             
+</div>
+</div>             
          
 END;
 ?>  
