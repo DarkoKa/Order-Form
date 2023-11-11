@@ -35,8 +35,25 @@
 
 echo<<<END
 
+<style>
+   tr, td{
+      border: solid;
+      border-width: 1px;
+      border-color: rgb(155, 77, 13);
+      background-color: rgba(166, 87, 21, 0.6);
+   }
+
+   th{
+      text-align:center;
+   }
+
+   body{
+      background-color: rgba(166, 87, 21, 0.6);
+   }
+</style>
+
 <div class="container-fluid d-flex align-items-center justify-content-center">
-<div class="row">
+<div class="row mt-4 mb-4">
      
 <table class="table">
 <thead>
