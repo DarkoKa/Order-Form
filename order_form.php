@@ -22,11 +22,15 @@
         
         $imie = $_POST['imie'];
         $nazwisko = $_POST['nazwisko'];
+
         $ulica = $_POST['ulica'];
         $nr_domu = $_POST['nr_domu'];
         $miasto = $_POST['miasto'];
         $kod_pocztowy = $_POST['kod_pocztowy'];
+
+        $nazwa_firmy = $_POST['nazwa_firmy'];
         $nip = $_POST['nip'];
+        $regon = $_POST['regon'];
         $e_mail = $_POST['e_mail'];
 
         $razem = $kajzerki + $grahamki + $poznanska + $pelnoziarn + $ciabatta + $maslana;
@@ -130,8 +134,16 @@ echo<<<END
 </thead>
 <tbody>
    <tr>
+      <td>Nazwa firmy</td>
+      <td>$nazwa_firmy</td>
+   </tr>
+   <tr>
       <td>NIP</td>
       <td>$nip</td>
+   </tr>
+   <tr>
+      <td>regon</td>
+      <td>$regon</td>
    </tr>
    <tr>
       <td>em@il</td>

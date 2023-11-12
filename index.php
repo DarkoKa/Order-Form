@@ -17,8 +17,7 @@
   <div class="container align-items-center justify-content-center pt-3 pb-2 h1 text-center myStyleForMainTitle">
         <p class="companyNameStyle">Piekarnia PieczyFFko</p>
         <h3>Zamówienia Online</h3>
-        <h3>Jesteś w dziale: Bułki</h3>
-     
+        <h3>Jesteś w dziale: Bułki</h3>  
   </div>
 
   <div class="container-fluid d-flex align-items-center justify-content-center">
@@ -66,8 +65,11 @@
             <input type="text" name="miasto" placeholder="miasto"/>
             <input type="text" name="kod_pocztowy" placeholder="kod pocztowy"/>
             <br><br>
-            <span class="myStyleTextInForm">Pozostałe dane:</span><br>
+            <span class="myStyleTextInForm">Dane firmy:</span><br>
+            <input type="text" name="nazwa_firmy" placeholder="Nazwa firmy"/>
             <input type="text" name="nip" placeholder="NIP"/>
+            <br>
+            <input type="text" name="regon" placeholder="regon"/>
             <input type="text" name="e_mail" placeholder="em@il"/>
             <br><br>
             <input type="submit" class="btn myBtnStyle mb-3" value="Wyślij zamówienie">
