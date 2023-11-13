@@ -150,9 +150,12 @@ echo<<<END
       <td>$e_mail</td>
    </tr>
 </tbody>
+</table>
 </div>
 </div>             
-         
+
+<a href="http://localhost/Form_order/" style="text-align:center; text-decoration:none; color:white;"><h2>Powrót do strony głównej</h2></a>
+
 END;
 ?>  
 </body>
