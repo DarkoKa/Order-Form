@@ -65,96 +65,99 @@ echo<<<END
     <th scope="col" colspan="2">Podsumowanie zamówienia</th>
   </tr>
 </thead>
-<tbody>
-  <tr>
-      <td>Kajzerki (0.69 PLN/szt.)</td>
-      <td>$kajzerki</td>
-  </tr>
-  <tr>
-      <td>Grahamki (1.30 PLN/szt.)</td>
-      <td>$grahamki</td>
-  </tr>
-  <tr>
-      <td>Poznańskie (0.99 PLN/szt.)</td>
-      <td>$poznanska</td>
-  </tr>
-  <tr>
-      <td>Pełnoziarnista (1.35 PLN/szt.)</td>
-      <td>$pelnoziarn</td>
-  </tr>
-  <tr>
-      <td>Ciabatta (1.50 PLN/szt.)</td>
-      <td>$pelnoziarn</td>
-  </tr>
-  <tr>
-      <td>Maślana (1.27 PLN/szt.)</td>
-      <td>$maslana</td>
-  </tr>
-  <tr>
+   <tbody>
+    <tr>
+        <td>Kajzerki (0.69 PLN/szt.)</td>
+        <td>$kajzerki</td>
+    </tr>
+    <tr>
+        <td>Grahamki (1.30 PLN/szt.)</td>
+        <td>$grahamki</td>
+    </tr>
+    <tr>
+        <td>Poznańskie (0.99 PLN/szt.)</td>
+        <td>$poznanska</td>
+    </tr>
+    <tr>
+        <td>Pełnoziarnista (1.35 PLN/szt.)</td>
+        <td>$pelnoziarn</td>
+    </tr>
+    <tr>
+        <td>Ciabatta (1.50 PLN/szt.)</td>
+        <td>$pelnoziarn</td>
+    </tr>
+    <tr>
+        <td>Maślana (1.27 PLN/szt.)</td>
+        <td>$maslana</td>
+    </tr>
+    <tr>
       <td>Razem</td>
       <td>$razem</td>
-  </tr>
-  <tr>
-      <td>Suma</td>
-      <td>$suma</td>
-   </tr>
-</tbody>
+     </tr>
+     <tr>
+         <td>Suma</td>
+         <td>$suma</td>
+      </tr>
+   </tbody>
 
-<thead>
-  <tr>
-    <th scope="col" colspan="2">Podany adres do zamówienia</th>
-  </tr>
-</thead>
-<tbody>
-   <tr>
-      <td>Imię</td>
-      <td>$imie</td>
-   </tr>
-   <tr>
-      <td>Nazwisko</td>
-      <td>$nazwisko</td>
-   </tr>
-   <tr>
-      <td>Ulica</td>
-      <td>$ulica</td>
-   </tr>
-   <tr>
-      <td>Miasto</td>
-      <td>$miasto</td>
-   </tr>
-   <tr>
-      <td>Kod pocztowy</td>
-      <td>$kod_pocztowy</td>
-   </tr>
+   <thead>
+     <tr>
+       <th scope="col" colspan="2">Podany adres do zamówienia</th>
+     </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Imię</td>
+         <td>$imie</td>
+      </tr>
+      <tr>
+         <td>Nazwisko</td>
+         <td>$nazwisko</td>
+      </tr>
+      <tr>
+         <td>Ulica</td>
+         <td>$ulica</td>
+      </tr>
+      <tr>
+         <td>Miasto</td>
+         <td>$miasto</td>
+      </tr>
+      <tr>
+         <td>Kod pocztowy</td>
+         <td>$kod_pocztowy</td>
+      </tr>
+   </tbody>
 
-<thead>
-  <tr>
-    <th scope="col" colspan="2">Pozostałe informacje</th>
-  </tr>
-</thead>
-<tbody>
-   <tr>
-      <td>Nazwa firmy</td>
-      <td>$nazwa_firmy</td>
-   </tr>
-   <tr>
-      <td>NIP</td>
-      <td>$nip</td>
-   </tr>
-   <tr>
-      <td>regon</td>
-      <td>$regon</td>
-   </tr>
-   <tr>
-      <td>em@il</td>
-      <td>$e_mail</td>
-   </tr>
-</tbody>
-</table>
-</div>
+   <thead>
+     <tr>
+       <th scope="col" colspan="2">Pozostałe informacje</th>
+     </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Nazwa firmy</td>
+         <td>$nazwa_firmy</td>
+      </tr>
+      <tr>
+         <td>NIP</td>
+         <td>$nip</td>
+      </tr>
+      <tr>
+         <td>regon</td>
+         <td>$regon</td>
+      </tr>
+      <tr>
+         <td>em@il</td>
+         <td>$e_mail</td>
+      </tr>
+    </tbody>
+  </table>
+ </div>
 </div>             
 
-<a href="http://localhost/Form_order/" style="text-align:center; text-decoration:none; color:white;"><h2>Powrót do strony głównej</h2></a>
+<div class="pb-5">
+   <a href="http://localhost/Form_order/" style="text-align:center; text-decoration:none; color:white;"><h5>Powrót do strony głównej</h5></a>
+</div>
 
 END;
 ?>  
