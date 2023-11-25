@@ -16,7 +16,7 @@
 
   <div class="container align-items-center justify-content-center pt-3 pb-2 h1 text-center myStyleForMainTitle">
         <p class="companyNameStyle">Piekarnia PieczyFFko</p>
-        <h3>Zamówienia Online</h3> 
+        <h6>Zamówienia Online tylko dla klientów hurtowych</h6> 
   </div>
 
   <div class="container-fluid d-flex align-items-center justify-content-center">
