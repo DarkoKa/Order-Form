@@ -23,7 +23,7 @@
     <div class="row">
       <div class="col myStyleForm">
         <form action="order_form.php" method="post">
-            <h4 class="p-2 pb-3 text-center myStyleTextInForm">Wybierz produkty i podaj ilość:</h4> 
+            <h4 class="p-2 pb-3 text-center myStyleTextInForm">Podaj ilość wybranych produktów:</h4> 
 
             <span class="myStyleTextInForm">Kajzerka (0.69 PLN/szt.):</span>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="text" type="text" name="kajzerki"/>
@@ -57,7 +57,7 @@
             <input type="text" name="nazwisko" placeholder="nazwisko"/>
             <br><br>
 
-            <span class="myStyleTextInForm">Adres zamieszkania:</span><br>
+            <span class="myStyleTextInForm">Adres doręczenia:</span><br>
             <input type="text" name="ulica" placeholder="ulica"/>
             <input type="text" name="nr_domu" placeholder="nr domu/mieszkania"/>
             <br>
@@ -66,7 +66,10 @@
             <br><br>
             <span class="myStyleTextInForm">Dane firmy:</span><br>
             <input type="text" name="nazwa_firmy" placeholder="Nazwa firmy"/>
-            <input type="text" name="nip" placeholder="NIP"/>
+
+            <!-- test number -->
+            <input type="number" inputmode="numeric" maxlenght="10" name="nip" placeholder="NIP: 000-000-00-00"/>
+
             <br>
             <input type="text" name="regon" placeholder="regon"/>
             <input type="text" name="e_mail" placeholder="em@il"/>
