@@ -68,7 +68,7 @@
             <input type="text" name="nazwa_firmy" placeholder="Nazwa firmy"/>
 
             <!-- test number -->
-            <input type="number" inputmode="numeric" maxlenght="10" name="nip" placeholder="NIP: 000-000-00-00"/>
+            <input type="text"  name="nip" placeholder="NIP: 000-000-00-00"/>
 
             <br>
             <input type="text" name="regon" placeholder="regon"/>
