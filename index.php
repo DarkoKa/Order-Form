@@ -21,7 +21,7 @@
 
   <div class="container-fluid d-flex align-items-center justify-content-center">
     <div class="row">
-      <div class="col myStyleForm">
+      <div class="col myStyleForm 3">
         <form action="order_form.php" method="post">
             <h4 class="p-2 pb-3 text-center myStyleTextInForm">Podaj ilość wybranych produktów:</h4> 
 
