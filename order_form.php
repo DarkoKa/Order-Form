@@ -12,7 +12,7 @@
 </head>
 
 <body>  
-    <?php
+<?php
         $kajzerki = $_POST['kajzerki'];
         $grahamki = $_POST['grahamki'];
         $poznanska   = $_POST['poznanska'];
@@ -46,7 +46,6 @@ echo<<<END
       border-color: rgb(155, 77, 13);
       background-color: rgba(166, 87, 21, 0.6);
    }
-
    th{
       text-align:center;
    }
